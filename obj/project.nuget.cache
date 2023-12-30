@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "mse2bYOL5XDeJXfsGyepX0b6Qzpkz2kVAUg635soVrGhXMgHJENq8RgtAbHX65JgEnCvBU3A5EMoRqqsBsvjLg==",
+  "dgSpecHash": "VupMhoRsj10H8nwCLQ8svO0T1AZ5Cvcjz0G37mamaOVO/q+wnqACcubTdNkNv6eVp6RcuhlvlxowT4+U84c6Ug==",
   "success": true,
   "projectFilePath": "C:\\Users\\guill\\Desktop\\ProgramacionIV\\Alvarez_TareaMVVM\\Alvarez_TareaMVVM.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\guill\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512",
     "C:\\Users\\guill\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
     "C:\\Users\\guill\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\guill\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",

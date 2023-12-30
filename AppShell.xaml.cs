@@ -5,6 +5,8 @@
         public AppShell()
         {
             InitializeComponent();
+
+            Routing.RegisterRoute(nameof(AlvarezViews.AlvarezNotePage), typeof(AlvarezViews.AlvarezNotePage));
         }
     }
 }

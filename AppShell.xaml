@@ -3,12 +3,19 @@
     x:Class="Alvarez_TareaMVVM.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:Alvarez_TareaMVVM"
+    xmlns:views="clr-namespace:Alvarez_TareaMVVM.AlvarezViews"
     Shell.FlyoutBehavior="Disabled">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    <TabBar>
+        <ShellContent
+            Title="Alvarez estas son tus notas"
+            ContentTemplate="{DataTemplate views:AlvarezAllNotePage}"
+            Icon="{OnPlatform 'icon_notes.png', iOS='icon_notes_ios.png', MacCatalyst='icon_notes_ios.png'}" />
+
+        <ShellContent
+            Title="Acerca de"
+            ContentTemplate="{DataTemplate views:AlvarezAboutPage}"
+            Icon="{OnPlatform 'icon_about.png', iOS='icon_about_ios.png', MacCatalyst='icon_about_ios.png'}" />
+    </TabBar>
 
 </Shell>
